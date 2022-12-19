@@ -1,0 +1,16 @@
+{
+  "name": "dsc-catch-dm",
+  "version": "1.0.0",
+  "description": "catch dm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Najlekk",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js-selfbot-v13": "v2.9",
+    "moment-timezone": "^0.5.39"
+  }
+}
