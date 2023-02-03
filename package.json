@@ -1,16 +1,33 @@
 {
   "name": "dsc-catch-dm",
   "version": "1.0.0",
-  "description": "catch dm",
+  "description": "catch incoming and outgoing DMs discord",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "Najlekk",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Najlek/dsc-catch-dm.git"
+  },
+  "keywords": [
+    "heroku",
+    "discord.js",
+    "discord bot",
+    "discord",
+    "discord self-bot",
+    "discord selfbot"
+  ],
+  "author": "Najlek",
+  "license": "GNU General Public License v3.0",
+  "bugs": {
+    "url": "https://github.com/Najlek/dsc-catch-dm/issues"
+  },
+  "homepage": "https://github.com/Najlek/dsc-catch-dm#readme",
   "dependencies": {
     "discord.js-selfbot-v13": "v2.9",
+    "dotenv": "^16.0.3",
     "moment-timezone": "^0.5.39"
   }
 }
