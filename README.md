@@ -9,11 +9,11 @@ Download script from "Releases" or clone repository.
 Download Git, [Node.js](https://nodejs.org/en/download/)
 
 Install dependencies
-
-Insert discord token in .env
 ```bash
 npm install
 ```
+
+Insert discord token in .env
 
 ## Usage
 
